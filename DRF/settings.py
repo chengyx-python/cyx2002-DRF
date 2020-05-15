@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'day01',
     'rest_framework',
     'day02',
+    'day03',
+    'day03_lianxi',
 ]
 
 MIDDLEWARE = [
@@ -142,5 +144,5 @@ REST_FRAMEWORK = {
     #     # 'rest_framework.parsers.MultiPartParser'
     # ],
     #异常
-    'EXCEPTION_HANDLER': 'apps.utils.exception.exception_handler',
+    'EXCEPTION_HANDLER': 'day02.utils.exception.exception_handler',
 }
